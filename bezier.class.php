@@ -111,7 +111,7 @@
 			imagestring ($image, 2, 10, $this->dimy-28, 'end point (D) = ('.$this->x3.','.$this->y3.')', $col1);
 			imagestring ($image, 2, 10, $this->dimy-15, 'control 1 (B) = ('.$this->x1.','.$this->y1.')', $col1);
 			imagestring ($image, 2, 10, $this->dimy-3 , 'control 2 (C) = ('.$this->x2.','.$this->y2.')', $col1);
-			imagejpeg($image,"",100);
+			imagejpeg($image,null,100);
 			}	
 		}				
 ?>
